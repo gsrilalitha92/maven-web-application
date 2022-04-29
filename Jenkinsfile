@@ -33,6 +33,7 @@ node{
 def mavenHome = tool name: 'maven3.8.5'
 try
 {
+  sendSlackNotifications('STARTED')
 //here we have to write script to get code from github
 //Get the code from GitHub Repo
 stage('CheckoutCode'){
