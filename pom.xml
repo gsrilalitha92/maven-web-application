@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://43.204.103.206:9000</sonar.host.url>
+		<sonar.host.url>http://65.0.107.218:9000</sonar.host.url>
                 <sonar.login>362969e6398ffbda103352872a2146a5a48707f4</sonar.login>
 		
              
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.235.49.195:8977/srilalitha/repository/google-release/</url>
+	      <url>http://65.2.5.193:8977/srilalitha/repository/google-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.49.195:8977/srilalitha/repository/google-snapshot/</url>
+	      <url>http://65.2.5.193:8977/srilalitha/repository/google-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
