@@ -24,7 +24,7 @@ def sendSlackNotification(String buildStatus = 'STARTED') {
   slackSend (color: colorCode, message: summary)
 }
 
-node{
+node('slaves'){
     
     echo "Job Name is  : ${env.JOB_NAME}"
     echo "Node Name is : ${env.NODE_NAME}"
